@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 *,html,body,footer{
-    font-family: 'DM Sans', sans-serif;
-
+    font-family: 'DM Sans', sans-serif; 
 }
-
+*{
+  overflow-x: none;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 8px;
@@ -99,7 +100,7 @@ font-weight: bolder;
 
   .btn-primary{
     background-color:#1866ED!important;
-    padding:20px 30px;  
+    padding:15px 30px;  
     font-weight: 800;
     font-size: 14px;
     border-radius: 9px;  
@@ -152,7 +153,12 @@ font-weight: bolder;
     font-weight: 700;
     text-align: center;
     } 
-
+    .banner-full{
+      font-size: 35px; 
+      white-space: nowrap;
+      font-weight: 700;
+      text-align: center;
+      } 
     .row>* {
         padding : 0!important;
     }
@@ -244,6 +250,7 @@ font-weight: bolder;
       cursor: pointer;
       transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     }
+
     .heading3 {  
       color:#1866ED;
       text-decoration: underline;
@@ -257,17 +264,30 @@ font-weight: bolder;
     }
 
     .heading3:hover {  
-      color:#1866ED;
-      transform: scale(0.95); 
-      cursor: pointer;
-    }
+       cursor: pointer;
+       text-decoration-thickness: 1px;
+       padding-left :  10px;
+       }
+
+       .heading-underline {  
+        color:#1866ED;
+        text-decoration: underline;
+        text-underline-position: under; 
+        text-decoration-thickness: 3px;
+        text-decoration-color: #1866ED;
+        text-underline-offset: 10px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }   
     .heading:hover {  
-      color:white;
-      transform: scale(0.95); 
+      color:#FFF;
+
       cursor: pointer;
+      text-decoration-thickness: 1px;
+      padding-left:  10px;
     }
-    .heading2 {  
-       letter-spacing: 3px;
+    .heading2 {   
       font-weight: 700;
       
     }
@@ -355,7 +375,7 @@ footer a:hover{
     padding-right: 0!important;
     }
 
-    .row {
-        width: 80%!important;
-        }
+  .card-panel{
+    width: 80%!important;
+  }
 }
