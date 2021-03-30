@@ -16,6 +16,17 @@ $(document).ready(function() {
 
 
 
+var $navbar = $('.navbar'),
+    fixmeTop = $navbar.offset().top+50;
+    var $navbarcont = $('.blob-container');
+
+$(window).scroll(function () {
+    var currentScroll = $(window).scrollTop();
+    $navbar.toggleClass('fixeds', currentScroll >= fixmeTop);
+    $navbarcont.toggleClass('pad', currentScroll >= fixmeTop);
+
+    console.log("DEMO");
+});
 
 function myfunction() 
  {
