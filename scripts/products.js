@@ -9,7 +9,7 @@ $(document).ready(function() {
       }
     });
 
-    $('.home').addClass('active');
+    $('.products').addClass('active');
    
     barba.init({
         transitions: [{
@@ -41,26 +41,6 @@ $(window).scroll(function () {
 
     console.log("DEMO");
 });
-document.addEventListener( 'DOMContentLoaded', function () {
-   new Splide( '.splide', {
-    type   : 'loop',
-    perPage: 3,
-    width: '100%',
-    autoplay: true,
-    pauseOnHover:true,
-    drag:true,
-    options : options,
-  } ).mount();
-
-  var options = {
-    perPage: 3,
-    breakpoints: {
-      640: {
-        perPage: 2,
-      },
-    }
-  };
-} );
 
 function myfunction() 
  {
@@ -68,12 +48,4 @@ function myfunction()
 
     header.classList.toggle('menu-opened');
  }
-  
-        new kursor({
-            type: 2,
-            removeDefaultCursor: true,
-            color: '#0399e0'
-
-
-        })
-    
+   

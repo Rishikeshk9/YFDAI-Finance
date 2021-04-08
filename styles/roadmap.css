@@ -1,0 +1,76 @@
+.roadmap-checks{
+    background-image: linear-gradient(to right,#1866ED,#2BD6E5)!important;
+    color: #fff; 
+    filter: drop-shadow(0 0 0.35rem #1866ed60);
+
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.roadmap-checks:hover {
+    filter: drop-shadow(0 0 0.35rem #2BD6E5);
+ }
+
+.roadmap-unchecks{
+    background-color: white;
+    color: #1866ED; 
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    filter: drop-shadow(0 0 0.35rem #1866ed60);
+
+}
+.roadmap-unchecks:hover {
+    filter: drop-shadow(0 0 0.35rem #1866ed);
+ }
+.rounded-corners{
+    border-radius: 10px;
+}
+
+.rounded-corners-extra{
+    border-radius: 20px;
+}
+
+.roadmap-heads{
+    color: #1866ED;
+
+}
+
+.roadmap-border-left{
+    border-left: 3px solid #1866ED;
+    border-top: 3px solid #1866ED;
+    position: relative;
+}
+
+.roadmap-border-left::after {
+    padding:0;
+    margin:0;
+    display:block;/* probably not really needed? */
+    content: "";
+    width:50%;
+    height:40px;
+    background-color:rgb(255, 255, 255);
+    position: absolute;
+    right:0;
+    top:-3px;
+}
+
+.roadmap-border-right {
+    border-right: 3px solid #1866ED;
+    border-top: 3px solid #1866ED;
+    position: relative;
+    border-top-left-radius: 0%;
+
+    top:-50px;
+     
+}
+
+.roadmap-border-right::after {
+    padding:0;
+    margin:0;
+    display:block;/* probably not really needed? */
+    content: "";
+    width:50%;
+    height:40px;
+    background-color:rgb(255, 255, 255);
+    position: absolute;
+    right:0;
+    top:-3px;
+}
