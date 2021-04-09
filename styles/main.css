@@ -124,7 +124,7 @@ font-weight: bolder;
 
   .btn-primary{
     background-color:#1866ED!important;
-    padding:15px 30px;  
+    padding:20px 30px;  
     font-weight: 800;
     font-size: 14px;
     border-radius: 9px;  
@@ -132,7 +132,7 @@ font-weight: bolder;
   } 
 
   .btn-primary:hover{
-    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.24), 0 10px 5px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.24), 0 10px 5px 0 rgba(0, 89, 255, 0.15);
   } 
 
   .btn-second{
@@ -140,15 +140,29 @@ font-weight: bolder;
     padding:20px 30px;  
     font-weight: 800;
     font-size: 14px;
-    border-radius: 9px;  
-    margin-left: 50%;
-    color:white;
-    transform:translateX(-50%);
+    border-radius: 9px;   
+    color:white; 
     letter-spacing: 2px;
   } 
 
   .btn-second:hover{
-    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.24), 0 10px 5px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.24), 0 10px 5px 0 rgba(0, 255, 170, 0.15);
+    color:white;
+
+  } 
+
+  .btn-alternate{
+    background-color:#65C4FF!important;
+    padding:20px 30px;  
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 9px;   
+    color:white; 
+    letter-spacing: 2px;
+  } 
+
+  .btn-alternate:hover{
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.24), 0 10px 5px 0 rgba(0, 217, 255, 0.15);
     color:white;
 
   } 
