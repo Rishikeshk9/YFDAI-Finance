@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/v4-shims.css">
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <link href="../styles/main.css" rel="stylesheet">
+    <link href="../styles/products.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+
+    <title>YFDAI - Launchpad</title>
+    <style>
+      .responsive {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+      }
+
+      ul {
+          list-style: none;
+        }
+
+        .list {
+          list-style-image: url(/right-arrow.svg);
+          /* OR */
+          list-style-type: '🔵';
+          padding-inline-start: 1ch;
+          font-size: 15px;
+        }
+
+        .alternate-list {
+          list-style-image: url(/right-arrow.svg);
+          /* OR */
+          list-style-type: '🟠'!important;
+          padding-inline-start: 1ch;
+          font-size: 15px;
+        }
+        
+        .active-list{
+          color: black !important;
+          font-weight: bold;
+        }
+    </style>
+  </head>
+ 
+  <body >
+    <!-- put here content that will not change
+    between your pages, like <header> or <nav> -->
+  
+    <!-- Just an image -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-md-block bg-info" style="z-index: 1000; color: black; ">
+      <div class="container " style="padding-top: 40px;">
+        <a class="navbar-brand" href="../index.html"><img src="../assets/svg/SVG/Brand Logo.svg" width="150px"  ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" ></span>
+        </button>
+        <div class="collapse navbar-collapse container box-shadow  " style="margin-left: auto; border-radius: 10px;"  id="navbarTogglerDemo02">
+          <ul class="navbar-nav  mb-2 mb-lg-0  "  style="margin-left: auto;">
+            <div class="dropdown-divider"></div>
+            <li class="nav-item mx-2 dropdown products" style="color: black; ">
+              <a class="nav-link dropdown-toggle products" style="color: black; "  href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PRODUCTS
+              </a>
+              <ul class="dropdown-menu   p-4 mx-auto" style="border: none;background-color: #FFF;width: 480px;border-radius: 15px; " aria-labelledby="navbarDropdownMenuLink">
+                <div class="container ">
+                  <div class="row ">
+                    <div class="col-6     " style="width: 200px;">
+                      <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Launchpad<img class="" style="margin-left: 40px;" width="36px" height="36px" src="../assets/svg/launchpad.svg"></a></li>
+                      <li><a class="dropdown-item my-2  dropdown-item-full " href="# " style="border-radius: 5px;color: black; " >Safeswap&nbsp;&nbsp;<img class="" style="margin-left: 40px;" width="36px" height="36px" src="../assets/svg/safeswap.svg"></a></li>
+                      <li><a class="dropdown-item my-2  dropdown-item-full " href="# " style="border-radius: 5px;color: black; " >Safeswap&nbsp;&nbsp;<img class="" style="margin-left: 40px;" width="36px" height="36px" src="../assets/svg/safeswap.svg"></a></li>
+                    
+                    </div>
+                    <div class="col-6   mx-2   ">
+                      <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Safetrade<img class="" style="margin-left: 50px;" width="36px" height="36px" src="../assets/svg/safetrade.svg"></a></li>
+                      <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Safetrade<img class="" style="margin-left: 50px;" width="36px" height="36px" src="../assets/svg/safetrade.svg"></a></li>
+                      <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Safetrade<img class="" style="margin-left: 50px;" width="36px" height="36px" src="../assets/svg/safetrade.svg"></a></li>
+                      </div>
+                  </div>
+                </div>
+                
+                
+                <a href="../products.html" class="text-left text-dark mt-3  mx-2 heading-underline">ALL PRODUCTS</a>
+
+              </ul>
+              
+            </li> 
+
+            <div class="dropdown-divider"></div>
+
+          
+            <li class="nav-item mx-4   ">
+              <a class="nav-link learn"  style="color: black; " href="Launchpad.html">LEARN</a>
+            </li>
+
+            <li class="nav-item mx-4  d-none ">
+              <a class="nav-link home"  style="color: black; " href="index.html">LEARN</a>
+            </li>
+            <div class="dropdown-divider"></div>
+
+            <li class="nav-item mx-4  ">
+              <a class="nav-link aboutus" href="../about.html" style="color: black; ">ABOUT</a>
+            </li>
+
+            <li class="nav-item mx-4 d-none ">
+              <a class="nav-link roadmap" href="roadmap.html" style="color: black; ">ABOUT</a>
+            </li>
+
+            
+            
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg  bg-info d-block d-md-none" style="z-index: 1000; ">
+      <div class="container " style="padding-top:  20px;"  >
+        <a class="navbar-brand mt-3" href="../index.html"><img src="../../assets/svg/SVG/Brand Logo.svg" width="150px"  ></a>
+        <button class="navbar-toggler mt-3" style="border-color: #00000000;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon  " style='background-image: url("https://cdn1.iconfinder.com/data/icons/jumpicon-basic-ui-line-1/32/-_Hamburger-Menu-More-Navigation--128.png");'></span>
+        </button>
+        <div class="collapse navbar-collapse container box-shadow px-4 py-3 " style="margin-left: auto;background-color: white;border-radius: 10px;"  id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0  "  style="margin-left: auto;">
+            <div class="dropdown-divider"></div>
+            <li class="nav-item dropdown" style="color: black; ">
+              
+              <ul class="navbar-nav  mb-2 mb-lg-0  "  style="margin-left: auto;">
+                 <li class="nav-item mx-2 dropdown" style="color: black; ">
+                  <a class="nav-link dropdown-toggle " style="color: black; "  href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    PRODUCTS
+                  </a>
+                  <ul class="dropdown-menu    mx-auto" style="border: none; padding-right:20px;background-color: #FFF;width: 480px;border-radius: 15px; " aria-labelledby="navbarDropdownMenuLink">
+                    <div class="container ">
+                      <div class="row ">
+                        <div class="col-6     " style="width: 200px;">
+                          <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Launchpad<img class="" style="margin-left: 40px;" width="36px" height="36px" src="../assets/svg/launchpad.svg"></a></li>
+                          <li><a class="dropdown-item my-2  dropdown-item-full " href="# " style="border-radius: 5px;color: black; " >Safeswap&nbsp;&nbsp;<img class="" style="margin-left: 40px;" width="36px" height="36px" src="../assets/svg/safeswap.svg"></a></li>
+                          <li><a class="dropdown-item my-2  dropdown-item-full " href="# " style="border-radius: 5px;color: black; " >Safeswap&nbsp;&nbsp;<img class="" style="margin-left: 40px;" width="36px" height="36px" src="../assets/svg/safeswap.svg"></a></li>
+                        
+                        </div>
+                        <div class="col-6   mx-2   ">
+                          <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Safetrade<img class="" style="margin-left: 50px;" width="36px" height="36px" src="../assets/svg/safetrade.svg"></a></li>
+                          <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Safetrade<img class="" style="margin-left: 50px;" width="36px" height="36px" src="../assets/svg/safetrade.svg"></a></li>
+                          <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Safetrade<img class="" style="margin-left: 50px;" width="36px" height="36px" src="../assets/svg/safetrade.svg"></a></li>
+                          </div>
+                      </div>
+                    </div>
+                    
+                    
+                    <a href="../products.html" class="text-left text-dark mt-3  mx-2 heading-underline">ALL PRODUCTS</a>
+    
+                  </ul>
+            </li> 
+
+            <div class="dropdown-divider"></div>
+
+           
+            <li class="nav-item mx-4   ">
+              <a class="nav-link learn"  style="color: black; " href="Launchpad.html">LEARN</a>
+            </li>
+
+            <li class="nav-item mx-4  d-none ">
+              <a class="nav-link home"  style="color: black; " href="index.html">LEARN</a>
+            </li>
+            <div class="dropdown-divider"></div>
+
+            <li class="nav-item mx-4  ">
+              <a class="nav-link aboutus" href="../about.html" style="color: black; ">ABOUT</a>
+            </li>
+
+            <li class="nav-item mx-4 d-none ">
+              <a class="nav-link roadmap" href="roadmap.html" style="color: black; ">ABOUT</a>
+            </li>
+        
+            
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+    
+    
+      <!-- put here the content you wish to change
+      between your pages, like your main content <h1> or <p> -->
+        <div  class="container-fluid  blob-container" >
+
+          <img class="d-none d-lg-block blob mx-auto" src="../assets/png/bg-products.png" >
+          <img class="d-md-block d-lg-none d-none blob2 mx-auto" src="../assets/1x/Asset 6.png" >
+
+          <img class="d-md-none blob3 mx-auto" src="../assets/1x/Asset 8.png">
+
+          <div class="row container " style="transform: translate(-50%,-40%);position: absolute; top: 40%;left:50%; width:100%;height:50%;padding: 0 !important; margin: 0 !important;   ">
+              
+            <div class="col-md-12 pt-5 mt-5 px-5" >
+                 
+                  
+              <h4 class="banner-full2 text-primary mt-3 pt-5  px-5 px-lg-0" style="text-align: left; "><strong>Resources</strong></h4>
+
+              <h2 class="banner-no-full mt-3 pt-1 px-5 px-lg-0" style="text-align: left; ">How to use our Tools</h2>
+              <br> 
+                       
+                
+                <br class="d-md-block d-none"> <br class="d-md-block d-none"> <br class="d-md-block d-none">
+ 
+            </div>
+              
+          </div>
+      </div>
+
+  
+
+     <div class="container my-5   ">
+       <div class="  row px-3" >
+
+        <div class="col-lg-8">
+
+          <h2 class="my-5" ><strong class="my-5">Staking</strong></h2>
+
+          <hr style="border-bottom: 5px  #1866ED solid;width:150px;opacity: 1;">
+          <h2 class="py-5"><strong>Staking allows you to be rewarded for holding the YF-DAI token.  You can buy and hold YF-DAI on various exchanges, or store them in wallets, but if you’re holding for the longer term, you may choose to earn rewards staking YF-DAI:</h2></strong>
+        
+          <ul>
+            <li class="list">Expert vetting of early-stage blockchain projects</li>
+            <li class="list" >  Mandatory smart contract audits by Blockchain Consilium or another top-tier third party auditor </li>
+            <li class="list">  Know Your Customer (“KYC”) of the project team</li>
+            <li class="list">  Strict and safe liquidity requirements </li>
+            <li class="list"> Pre-sale token lock for accepted projects </li>
+          </ul>
+  
+          <p>As a YF-DAI stakeholder participant in our token launches, you can rest easy regarding the risk of being scammed by illegitimate projects.  The LaunchPad dApp itself, and the methodology we have deployed, make purchasing new project tokens a relaxed, de-risked and enjoyable experience:</p>
+          
+          <ul>
+            <li class="list">Guaranteed allocations for those who stake or farm YF-DAI tokens for at least 30 days 
+            </li class="list">
+            <li class="list">No ETH gas wars or lotteries for pre-sale token allocations  
+            </li class="list">
+            <li class="list">Multipliers increase the allocations based on length of time staking or farming YF-DAI
+            </li class="list">
+            <li class="list">  Complete an expression of interest form to register toye wallet(s) on a pre-sale whitelist.  
+            </li class="list">
+            <li class="list"> Once the sale opens, follow a link to our LaunchPad dApp to secure your allocation:</li>
+          </ul>
+
+
+          <div class="mx-5 alternate-list">
+            <ul>
+              <li class="alternate-list"> Review your personal allocation amount in the token that is being launched.</li>
+              <li class="alternate-list"> Select “MAX,” or some lesser amount.</li>
+              <li class="alternate-list"> Execute an approval in your Web 3 wallet (like MetaMask)</li>
+              <li class="alternate-list"> Execute the confirmation transaction</li>
+              <li class="alternate-list"> Once completed, you will see a pop up window showing the transaction has succeeded and a confirmation email</li>
+            </ul>
+          </div>
+
+          <ul>
+            <li class="list">Claim your tokens with the provided link in the dApp upon TGE or the start of the vesting schedule thereafter. 
+              Vesting schedules are used to prevent token dumping and ensure a smooth transition from the LaunchPad to listing on both SafeSwap and Uniswap, as well as other decentralized and centralized exchanges thereafter. </li>
+          </ul>
+          <br>
+          <button type="button" class="btn btn-primary btn-lg btn-block mx-auto px-5">GO TO LAUNCHPAD</button>
+
+        </div>
+
+        <div class="col-lg-4  my-5 pt-5">
+          <div class="card shadow mx-5   mt-5 p-lg-5 p-4" style="border:1px solid rgb(228, 228, 228)">
+            <p class="text-primary"><strong>OUR TOOLS</strong></p>
+            <ul class="  ">
+              <li ><a href="Launchpad.html" style="text-decoration: none;">LaunchPad</a></li>
+              <li class="active-list"><a href="Staking.html" style="text-decoration: none;">Staking</a></li>
+              <li><a href="Farming.html" style="text-decoration: none;"> Farming</a></li>
+              <li><a href="Safeswap.html" style="text-decoration: none;"> SafeSwap</a></li>
+              <li><a href="SafeTrade.html" style="text-decoration: none;">SafeTrade</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+     </div>
+       
+   
+     
+    
+      <!-- put here content that will not change
+      between your pages, like <footer> -->
+    
+    <footer class="container-fluid  d-none d-md-block  " style="background-image: url(../assets/png/Artboard\ 1.png);background-repeat: no-repeat;background-size:cover; background-position: center;">
+      <div class=" pt-5 pb-3  container" >
+
+        <div class="row    mx-auto">
+
+          <div class="col-3">
+            <h2 class="text-light">
+              <strong>Services</strong>
+            </h2>
+            <br> 
+                
+                <strong  ><a href="#" >SafeSwap</a></strong><br> 
+              
+                <strong><a href="#"> SafeTrade</a></strong><br>
+               
+                <strong><a href="#"> LaunchPad</a></strong><br>
+             
+                <strong><a href="#"> Insurance</a></strong><br>
+               
+                <strong><a href="#"> SafePredict</a></strong>
+          </div>
+          <div class="col-3">
+            <h2 class="text-light  ">
+              <strong>Resources</strong>
+            </h2>
+            <br> 
+            <strong  ><a href="#" >SafeSwap</a></strong><br> 
+              
+            <strong><a href="#"> SafeTrade</a></strong><br>
+           
+            <strong><a href="#"> LaunchPad</a></strong><br>
+         
+            <strong><a href="#"> Insurance</a></strong><br>
+           
+           
+      
+          </div>
+          <div class="col-6">
+            <div class="row  g-0 ">
+              <div class="col-6 ">
+                <h2 class="text-light ">
+                  <strong>Community</strong>
+                </h2>
+              </div>
+              <div class="col-6 mt-1  g-0"  >
+                <div class="row  g-0">
+                  <div class="col-4 text-light">
+                   </div>  
+                  <div class="col-2 text-light">
+                    <i class="fab fa-telegram  "  ></i>
+                  </div>
+                  <div class="col-2 text-light">
+                    <i class="fab fa-facebook  "  ></i>
+                  </div>
+                  <div class="col-2 text-light">
+                    <i class="fab fa-github  "  ></i>
+                  </div>
+                  <div class="col-2 text-light">
+                    <i class="fab fa-twitter  "  ></i>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="row g-0  text-light " >
+
+              <div class="col-12 mt-1 mb-4"  >
+                 
+                <div class="form-group"> 
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                  <small id="emailHelp" class="form-text text-muted d-none">We'll never share your email with anyone else.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+    
+          <div class="row mb-5  mx-auto">
+    
+            <div class="col-6 mt-5 ">
+              <img src="../assets/svg/SVG/Brand Logo Alt.svg" alt="" width="150px"  >
+            </div>
+            <div class="col-2 mt-5 text-left  " style="text-align: left;">
+              <strong><a href="#">©2020 yfdai.finance</a></strong>
+            </div>
+            <div class="col-2 mt-5 text-center  " style="text-align: center;">
+              <strong><a href="#">About YFDAI</a></strong>
+            </div>
+            <div class="col-2 mt-5 text-right  " style="text-align: right;">
+              <strong><a href="#">Terms and Conditions</a></strong>
+            </div>
+          </div>
+        </div>
+      
+        
+
+
+      
+       
+      
+
+
+      
+      
+
+      
+      
+    </div>
+    </footer>
+
+    <footer class="container-fluid  d-block d-md-none" style="background-image: url(../assets/png/Artboard\ 1.png);background-repeat: no-repeat;background-size:cover; background-position: center;">
+      <div class=" pt-5 pb-3 px-3 container" >
+      <h2 class="text-light">
+        <strong>Services</strong>
+      </h2>
+
+      <div class="row px-3 text-light ">
+
+        <div class="col-4 my-1">
+          <strong><a href="#">SafeSwap</a></strong>
+        </div>
+
+        <div class="col-4 my-1">
+          <strong><a href="#"> SafeTrade</a></strong>
+        </div>
+
+        <div class="col-4 my-1">
+          <strong><a href="#"> LaunchPad</a></strong>
+        </div>
+      </div>
+      <div class="row px-3 text-light">
+
+        <div class="col-4 my-1">
+          <strong><a href="#"> Insurance</a></strong>
+        </div>
+
+        <div class="col-4 my-1">
+          <strong><a href="#"> SafePredict</a></strong>
+        </div>
+
+       
+      </div>
+
+
+      <h2 class="text-light mt-4">
+        <strong>Resources</strong>
+      </h2>
+
+      <div class="row px-3 text-light ">
+
+        <div class="col-4 my-1">
+          <strong><a href="#">Safeswap</a></strong>
+        </div>
+
+        <div class="col-4 my-1">
+          <strong><a href="#"> SafeTrade</a></strong>
+        </div>
+
+        
+      </div>
+      <div class="row px-3 text-light">
+
+        <div class="col-4 my-1">
+          <strong><a href="#"> Insurance</a></strong>
+        </div>
+
+        <div class="col-4 my-1">
+          <strong><a href="#"> SafePredict</a></strong>
+        </div>
+
+       
+      </div>
+
+
+      <div class="row px-3 mt-4">
+        <div class="col-6 ">
+          <h2 class="text-light ">
+            <strong>Community</strong>
+          </h2>
+        </div>
+        <div class="col-6 mt-1 "  >
+          <div class="row">
+            <div class="col-4">
+
+            </div>
+            <div class="col-2 text-light">
+              <i class="fab fa-telegram  "></i>
+            </div>
+            <div class="col-2 text-light">
+              <i class="fab fa-facebook  "></i>
+            </div>
+            <div class="col-2 text-light">
+              <i class="fab fa-github  "></i>
+            </div>
+            <div class="col-2 text-light">
+              <i class="fab fa-twitter  "></i>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+
+      <div class="row px-3 text-light " >
+
+        <div class="col-12 mt-1 mb-4"  >
+           
+          <div class="form-group"> 
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+            <small id="emailHelp" class="form-text text-muted d-none">We'll never share your email with anyone else.</small>
+          </div>
+        </div>
+      </div>
+      <div class="row mx-2 mt-2">
+
+        <div class="col-6  ">
+          <strong><a href="#" > About YFDAI</a></strong>
+        </div>
+        <div class="col-6  text-right" style="text-align: right;">
+          <strong  style="text-align: right;"><a href="#" style="text-align: right;"> Terms & Conditions</a></strong>
+        </div>
+      </div>
+
+      <div class="row mx-2">
+
+        <div class="col-6 mt-5 ">
+          <img src="../assets/svg/logo.svg" alt="" width="150px"  >
+        </div>
+        <div class="col-6 mt-5 text-right" style="text-align: right;">
+          <strong><a href="#">©2020 yfdai.finance</a></strong>
+        </div>
+      </div>
+    </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"  ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"  ></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/v4-shims.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <!-- load gsap animation library (minified version) -->
+    <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+
+    <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CIntersectionObserver"></script>
+    <script src="../scripts/learn.js"  ></script>
+  </body>
+
+  
+
+</html>

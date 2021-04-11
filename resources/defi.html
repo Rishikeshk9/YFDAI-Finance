@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/v4-shims.css">
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <link href="../styles/main.css" rel="stylesheet">
+    <link href="../styles/products.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+
+    <title>YFDAI - Launchpad</title>
+    <style>
+      .responsive {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+      }
+
+      ul {
+          list-style: none;
+        }
+
+        .list { 
+          /* OR */
+          list-style-type: '🔵';
+          padding-inline-start: 1ch;
+          font-size: 15px;
+        }
+
+        .alternate-list { 
+          /* OR */
+          list-style-type: '🟠'!important;
+          padding-inline-start: 1ch;
+          font-size: 15px;
+        }
+        
+        .active-list{
+          color: black !important;
+          font-weight: bold;
+        }
+    </style>
+  </head>
+ 
+  <body >
+    <!-- put here content that will not change
+    between your pages, like <header> or <nav> -->
+  
+     <!-- Just an image -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-md-block bg-info" style="z-index: 1000; color: black; ">
+      <div class="container " style="padding-top: 40px;">
+        <a class="navbar-brand" href="../index.html"><img src="../assets/svg/SVG/Brand Logo.svg" width="150px"  ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" ></span>
+        </button>
+        <div class="collapse navbar-collapse container box-shadow  " style="margin-left: auto; border-radius: 10px;"  id="navbarTogglerDemo02">
+          <ul class="navbar-nav  mb-2 mb-lg-0  "  style="margin-left: auto;">
+            <div class="dropdown-divider"></div>
+            <li class="nav-item mx-2 dropdown products" style="color: black; ">
+              <a class="nav-link dropdown-toggle products" style="color: black; "  href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PRODUCTS
+              </a>
+              <ul class="dropdown-menu   p-4 mx-auto" style="border: none;background-color: #FFF;width: 480px;border-radius: 15px; " aria-labelledby="navbarDropdownMenuLink">
+                <div class="container ">
+                  <div class="row ">
+                    <div class="col-6     " style="width: 200px;">
+                      <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Launchpad<img class="" style="margin-left: 40px;" width="36px" height="36px" src="../assets/svg/launchpad.svg"></a></li>
+                      <li><a class="dropdown-item my-2  dropdown-item-full " href="# " style="border-radius: 5px;color: black; " >Safeswap&nbsp;&nbsp;<img class="" style="margin-left: 40px;" width="36px" height="36px" src="../assets/svg/safeswap.svg"></a></li>
+                      <li><a class="dropdown-item my-2  dropdown-item-full " href="# " style="border-radius: 5px;color: black; " >Safeswap&nbsp;&nbsp;<img class="" style="margin-left: 40px;" width="36px" height="36px" src="../assets/svg/safeswap.svg"></a></li>
+                    
+                    </div>
+                    <div class="col-6   mx-2   ">
+                      <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Safetrade<img class="" style="margin-left: 50px;" width="36px" height="36px" src="../assets/svg/safetrade.svg"></a></li>
+                      <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Safetrade<img class="" style="margin-left: 50px;" width="36px" height="36px" src="../assets/svg/safetrade.svg"></a></li>
+                      <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Safetrade<img class="" style="margin-left: 50px;" width="36px" height="36px" src="../assets/svg/safetrade.svg"></a></li>
+                      </div>
+                  </div>
+                </div>
+                
+                
+                <a href="../products.html" class="text-left text-dark mt-3  mx-2 heading-underline">ALL PRODUCTS</a>
+
+              </ul>
+              
+            </li> 
+
+            <div class="dropdown-divider"></div>
+
+          
+            <li class="nav-item mx-4   ">
+              <a class="nav-link learn"  style="color: black; " href="Launchpad.html">LEARN</a>
+            </li>
+
+            <li class="nav-item mx-4  d-none ">
+              <a class="nav-link home"  style="color: black; " href="index.html">LEARN</a>
+            </li>
+            <div class="dropdown-divider"></div>
+
+            <li class="nav-item mx-4  ">
+              <a class="nav-link aboutus" href="../about.html" style="color: black; ">ABOUT</a>
+            </li>
+
+            <li class="nav-item mx-4 d-none ">
+              <a class="nav-link roadmap" href="roadmap.html" style="color: black; ">ABOUT</a>
+            </li>
+
+            
+            
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg  bg-info d-block d-md-none" style="z-index: 1000; ">
+      <div class="container " style="padding-top:  20px;"  >
+        <a class="navbar-brand mt-3" href="../index.html"><img src="../../assets/svg/SVG/Brand Logo.svg" width="150px"  ></a>
+        <button class="navbar-toggler mt-3" style="border-color: #00000000;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon  " style='background-image: url("https://cdn1.iconfinder.com/data/icons/jumpicon-basic-ui-line-1/32/-_Hamburger-Menu-More-Navigation--128.png");'></span>
+        </button>
+        <div class="collapse navbar-collapse container box-shadow px-4 py-3 " style="margin-left: auto;background-color: white;border-radius: 10px;"  id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0  "  style="margin-left: auto;">
+            <div class="dropdown-divider"></div>
+            <li class="nav-item dropdown" style="color: black; ">
+              
+              <ul class="navbar-nav  mb-2 mb-lg-0  "  style="margin-left: auto;">
+                 <li class="nav-item mx-2 dropdown" style="color: black; ">
+                  <a class="nav-link dropdown-toggle " style="color: black; "  href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    PRODUCTS
+                  </a>
+                  <ul class="dropdown-menu    mx-auto" style="border: none; padding-right:20px;background-color: #FFF;width: 480px;border-radius: 15px; " aria-labelledby="navbarDropdownMenuLink">
+                    <div class="container ">
+                      <div class="row ">
+                        <div class="col-6     " style="width: 200px;">
+                          <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Launchpad<img class="" style="margin-left: 40px;" width="36px" height="36px" src="../assets/svg/launchpad.svg"></a></li>
+                          <li><a class="dropdown-item my-2  dropdown-item-full " href="# " style="border-radius: 5px;color: black; " >Safeswap&nbsp;&nbsp;<img class="" style="margin-left: 40px;" width="36px" height="36px" src="../assets/svg/safeswap.svg"></a></li>
+                          <li><a class="dropdown-item my-2  dropdown-item-full " href="# " style="border-radius: 5px;color: black; " >Safeswap&nbsp;&nbsp;<img class="" style="margin-left: 40px;" width="36px" height="36px" src="../assets/svg/safeswap.svg"></a></li>
+                        
+                        </div>
+                        <div class="col-6   mx-2   ">
+                          <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Safetrade<img class="" style="margin-left: 50px;" width="36px" height="36px" src="../assets/svg/safetrade.svg"></a></li>
+                          <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Safetrade<img class="" style="margin-left: 50px;" width="36px" height="36px" src="../assets/svg/safetrade.svg"></a></li>
+                          <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Safetrade<img class="" style="margin-left: 50px;" width="36px" height="36px" src="../assets/svg/safetrade.svg"></a></li>
+                          </div>
+                      </div>
+                    </div>
+                    
+                    
+                    <a href="../products.html" class="text-left text-dark mt-3  mx-2 heading-underline">ALL PRODUCTS</a>
+    
+                  </ul>
+            </li> 
+
+            <div class="dropdown-divider"></div>
+
+           
+            <li class="nav-item mx-4   ">
+              <a class="nav-link learn"  style="color: black; " href="Launchpad.html">LEARN</a>
+            </li>
+
+            <li class="nav-item mx-4  d-none ">
+              <a class="nav-link home"  style="color: black; " href="index.html">LEARN</a>
+            </li>
+            <div class="dropdown-divider"></div>
+
+            <li class="nav-item mx-4  ">
+              <a class="nav-link aboutus" href="../about.html" style="color: black; ">ABOUT</a>
+            </li>
+
+            <li class="nav-item mx-4 d-none ">
+              <a class="nav-link roadmap" href="roadmap.html" style="color: black; ">ABOUT</a>
+            </li>
+        
+            
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+    
+    
+      <!-- put here the content you wish to change
+      between your pages, like your main content <h1> or <p> -->
+      <div  class="container-fluid  blob-container" >
+
+          <img class="d-none d-lg-block blob mx-auto" src="../../assets/png/bg-products.png" >
+          <img class="d-md-block d-lg-none d-none blob2 mx-auto" src="../assets/1x/Asset 6.png" >
+
+          <img class="d-md-none blob3 mx-auto" src="../assets/1x/Asset 8.png">
+
+          <div class="row container " style="transform: translate(-50%,-40%);position: absolute; top: 40%;left:50%; width:100%;height:50%;padding: 0 !important; margin: 0 !important;   ">
+              
+            <div class="col-md-12 pt-5 mt-5 px-5" >
+                 
+                  
+              <h4 class="banner-full2 text-primary mt-3 pt-5  px-5 px-lg-0" style="text-align: left; "><strong>Resources</strong></h4>
+
+              <h2 class="banner-no-full mt-3 pt-1 px-5 px-lg-0" style="text-align: left; ">What is DeFi</h2>
+              <br> 
+                       
+                
+                <br class="d-md-block d-none"> <br class="d-md-block d-none"> <br class="d-md-block d-none">
+ 
+            </div>
+              
+          </div>
+      </div>
+
+  
+
+     <div class="container my-5   ">
+       <div class="  row px-3" >
+
+        <div class="col-lg-12">
+
+ 
+          <hr style="border-bottom: 5px  #1866ED solid;width:150px;opacity: 1;">
+          <h2 class="py-5"><strong>DeFi or Decentralized Finance is a novel peer-to-peer, censorship-resistant finance system providing trustless activities associated with financial services to society at large.</h2></strong>
+         
+  
+          <p>
+            By integrating programmable and tamper-proof transactions into financial operations while removing slow and costly centralized intermediaries, a new transparent and inclusion-based financial system has emerged.  
+          </p>
+          
+          <p>DeFi enables trustless, secure and flexible banking, lending, borrowing, trading, and investing financial services in an equitable manner. Decentralized Finance has emerged from the growing adoption of blockchain technology and the various applications of cryptocurrency. In February 2020, there was just over $1 billion in total value locked across all DeFi platforms. The total value locked in the greater DeFi industry is over $43 billion in March 2021, a 40x rise from one year ago. </p>
+          
+          <p>
+            To better understand DeFi, it is important that you first familiarize yourself with the functions of some of the foundational cryptocurrencies such as Bitcoin and Ethereum, and the important role played by stable coins, which are cryptocurrencies that are pegged to an underlying fiat value (e.g. USD or GBP). 
+          </p>
+
+          <p>
+            <strong>
+              Some key points worth researching as you begin your crypto / DeFi journey:
+            </strong>
+          </p>
+          <ul>
+            <li class="list">Wallets and custody</li>
+              <li class="list">DApps and how they function</li>
+              <li class="list">How to purchase and exchange cryptocurrencies</li>
+              <li class="list">The function of a blockchain</li>
+              <li class="list">The purposes and uses of the major types of cryptocurrency</li>
+                <li class="list">Consensus mechanisms (mining, proof of stake, proof of work and others)</li>              
+          </ul>
+
+          <div class="container mt-5">
+            <br>
+            <br>
+             
+            <hr style="border-top: dotted 3.5px rgb(54, 54, 54);
+            background-color: transparent;" />
+      
+            <hr style="border-top: dotted 3.5px rgb(54, 54, 54);
+            background-color: transparent;" />
+
+            <br>
+
+            <br>  
+          </div>
+
+          <p><strong>How does DeFi work?</strong></p>
+
+          <p>
+            DeFi in a nutshell provides access to a borderless, open alternative to every financial service imaginable, including borrowing, lending, insurance, savings, investment, trading and more. In the world of traditional finance, central authorities such as banks and third party financial institutions are needed as a central authority, which can cause financial transactions to be slow, costly and potential vulnerable to data security issues. In the world of decentralized finance, transactions are trustless, fast, inexpensive, secure, and equitable given the nature of a peer-to-peer financial system that runs on the blockchain.
+          </p>
+
+          <p>
+            In DeFi these arrangements are facilitated by something called a DApp or Decentralized Application and they allow for a multitude of functions and “smart” contracts between parties to carry out otherwise complex financial activities. DApps eliminate the need for a centralised custodian such as a bank and all the transactional records sit instead on a blockchain, thereby removing the potential for data manipulation or monopoly. The smart contracts which facilitate DeFi transactions are themselves seen as so beneficial that they are already experiencing wider adoption outside the crypto industry.
+          </p>
+
+          <p>
+            <strong>
+            What are DApps and how do they work in DeFi?
+            </strong>
+          </p>
+
+           <p>
+            DApps are applications that run on blockchains and according to many leading economists these are the tools which have elevated blockchain technology beyond simple data or value transfers into a world of next generation banking and finance. DApps provide anyone with an internet connection the opportunity to participate in this new financial future.
+           </p> 
+
+           <p>Unlike traditional software that runs on centralized servers, dApps run on a decentralized network of censorship-resistant nodes that are difficult to shut down. As with the evolution of the internet DApps are also evolving rapidly, many of them are open source which allows the industry a huge amount of freedom to build on and evolve the work of predecessors. </p>
+
+           <p><strong>DApp’s in the DeFi space currently provide a wide range of functions including, but not limited to:</strong></p>
+
+           <ul>
+            <li class="list">Decentralized borrowing and lending</li>
+            <li class="list">Reserve banking</li>
+            <li class="list">Synthetic asset and derivatives trading</li>
+            <li class="list">Prediction markets and decentralized marketplaces</li>
+            <li class="list">Yield farming and liquidity pools</li>
+            <li class="list"> Automated contract settlement</li>
+            <li class="list">Stablecoin interoperability</li>
+                            
+          </ul>
+
+          <p><strong>How do I access DApps?</strong></p>
+
+          <p>The simple and easiest way to find a DApp is to use a search engine. There are also a number of DApp browsers within certain mobile wallets. YFDAI have a range of trusted and secure DeFi DApps linked to our website.</p>
+
+          <p>
+            Before you start using a DApp however it is important that you hold some of the tokens relevant to the DApp’s particular blockchain in whichever wallet you plan to connect to the DApp. This will allow you to pay the “Gas” transaction fees. In many cases this will be Ethereum, however Binance utilises BNB and there are many others.
+          </p>
+
+
+          <p><strong>Some DeFi terms you should definitely learn</strong></p>
+
+          <p>Below are a list of some of the main terms associated with DeFi outside those we have already discussed, that anyone considering getting involved should learn.</p>
+         
+          <p><strong>
+            Decentralized Exchange (DEX)
+          </strong></p>
+
+          <p>A DEX or Decentralised Exchange allows users to trade digital assets peer-to-peer. In contrast to centralized exchanges, users are always in complete control of their funds. There are still risks involved with investing on a DEX which involves what is called a “Rug Pull” where the liquidity of an asset is removed making a token effectively valueless. This is in part why YFDAI has created SafeSwap as a DEX platform that effectively prevents these types of activities.</p>
+         
+          <p><strong>Liquidity Pools</strong></p>
+
+          <p>In the cryptocurrency space as with traditional finance, Market Makers are typically companies who buy from one investor and sell to another providing market liquidity. Liquidity pools on the other hand remove the need for DEXes to rely on market makers for liquidity. With a Liquidity pool, users provide liquidity in exchange for incentives. These incentives range from trading fees, interest, bonuses, or take other forms unique to the exchange.</p>
+          
+          <p><strong>Smart Contracts</strong></p>
+
+          <p>A smart contract is a self-executing contract written in code on a blockchain. These contracts execute when specific stipulations are met. Some examples of Smart Contracts include loan agreements, insurance agreements, or the sale of physical assets.</p>
+         
+          <p><strong>Oracle</strong></p>
+
+          <p>An oracle is used on a blockchain to provide smart contracts with information from the outside world. They are an essential part of how smart contracts operate. It is with (and because of) the information that oracles provide that smart contracts can be executed.</p>
+          
+          <p><strong>Over-Collateralization</strong></p>
+
+          <p>As a means to overcome the requirement for credit checks and the multitude of other traditional mechanisms in the lending process, Over-collateralized loans form a fundamental part of the DeFi infrastructure. Over-Collateralization is a form of insurance for if the lender defaults on any loan on a DApp.
+            <br>  <br>
+            In traditional finance providing collateral may be required to secure a loan, a key difference to normal collateralization of a loan is that, in DeFi, you need to over-collateralize. This means that the lender would need to put forward more in assets than the value of the loan itself. The minimum collateralization ratio is 150%. For example, if somebody wanted to borrow 200 of a stablecoin, they would need 300 equivalent value of Ether to back it up as collateral. The purpose of Over-Collateralization here is to protect lenders against potential price volatility in the market.</p>
+  
+          <p><strong>Permissionless</strong></p>
+
+          <p>DeFi is democratic and permissionless which in simple terms means that it allows anyone to take part. Participants don’t need a bank account. All you need is an internet connection so you can access the DApps.</p>
+            
+          <p><strong>Tokenization</strong></p>
+
+          <p>This is the process of converting real-world assets such as loans, artwork, real estate, even luxury cars or other physical assets into programmable data to be stored on a blockchain. By cutting out the middleman, it takes away many of the overheads and administrative costs, which would otherwise make this process unrealistic for many who don’t have the resources or connections in traditional financial markets.</p>
+          
+          <p><strong>Total Value Locked (TVL)</strong></p>
+
+          <p>This is a measurement used to gauge the size of a platform, project or of the DeFi industry as a whole. It is the total value in dollars locked into DApps in capital. For example, this capital may be liquidity in a DEX trading pool or a loan on a borrowing and lending Dapp. In 2020, the TVL in DeFi has increased significantly. In January 2020, it was around $600 million, but this has since grown to over $11 billion at the end of 2020 and up to $15 billion at the time of writing in Feb 2021.</p>
+          
+          <p><strong>Yield Farming</strong></p>
+
+          <p>This is one of the many ways an investor might consider generating profits while supporting the DeFi ecosystem through the borrowing, lending, and exchange of tokens. Yield farmers provide liquidity to the liquidity pool by locking tokens in a smart contract in exchange for incentives. YFDAI operates our SafeFarm platform which enables investors to earn rewards generated by usage of our ecosystem.</p>
+
+          <div class="container-fluid d-none d-md-block">
+        
+            <div class="row m-auto my-5 px-3" style="width: 100%!important">
+              <div class="col-md-12 card  shadow-lg  "  style=" background:url('../assets/2x/defi-bg@2x.png');background-repeat: no-repeat;background-size:cover;">
+                <div class="text-center text-light pt-1 my-5 pb-5 px-2 ">
+    
+                  <h4 class="heading2 mt-5 text-light  rounded-circle">STAKING YFDAI RETURNS 72% APY</h4> 
+                  <br>
+                  <p class="text-center mb-5 heading">READY TO GET STAKING</p>
+          
+                </div>
+              </div> 
+            </div>
+          </div>
+
+          <p><strong>Is DeFi the future of Finance?</strong></p>  
+
+          <p>Decentralized finance has the potential to revolutionize the financial industry and support a more transparent, inclusive and global financial system than ever before. DeFi empowers individuals to achieve true financial freedom without any reliance on the legacy centralized financial system, making financial transactions truly peer-to-peer and borderless. 
+            <br>
+            <br>
+            With the decentralized finance industry representing less than 1% of the +$22 trillion financial services industry, it is easy to understand the massive potential that DeFi has in the broader context of the global financial marketplace. The inspiration for creating YFDAI resides squarely in our mission to provide a legitimate, transparent, safe and user-friendly ecosystem for those wishing to participate in the DeFi revolution. We firmly believe that with the appropriate tools and risk mitigation, DeFi represents the future of finance comparable to the rise of the internet. It will only be a matter of time before widespread adoption forces significant changes to take place across the financial services industry. </p>
+ 
+          <br>
+
+          <div class="container mt-3">
+           
+             
+            <hr style="border-top: dotted 3.5px rgb(54, 54, 54);
+            background-color: transparent;" />
+      
+            <hr style="border-top: dotted 3.5px rgb(54, 54, 54);
+            background-color: transparent;" />
+
+            <br> 
+            <br> 
+            
+            
+          </div>
+
+          <div class="container my-3    d-none d-md-block ">
+
+            <div class="row  mx-auto   " style="  width: 100%!important"  >
+              <div class="col-6   my-auto  ">
+                <h2 class="text-left  "><strong>Gets started with YFDAI</strong></h2>
+  
+              </div>
+              
+  
+              <div class="col-3 "  >
+                <div class="row "   >
+                  <button type="button" class="btn btn-primary   " style="height:70px;width: 80%;"> BUTTON</button> 
+                </div>
+                
+              </div>
+              <div class="col-3  "  >
+                <div class="row    " >
+                  <button type="button" class="btn  btn-second" style="height:70px; width: 80%;">BUTTON</button> 
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>  
+
+        </div>
+      </div>
+     </div>
+       
+   
+     
+    
+      <!-- put here content that will not change
+      between your pages, like <footer> -->
+    
+    <footer class="container-fluid  d-none d-md-block  " style="background-image: url(../assets/png/Artboard\ 1.png);background-repeat: no-repeat;background-size:cover; background-position: center;">
+      <div class=" pt-5 pb-3  container" >
+
+        <div class="row    mx-auto">
+
+          <div class="col-3">
+            <h2 class="text-light">
+              <strong>Services</strong>
+            </h2>
+            <br> 
+                
+                <strong  ><a href="#" >SafeSwap</a></strong><br> 
+              
+                <strong><a href="#"> SafeTrade</a></strong><br>
+               
+                <strong><a href="#"> LaunchPad</a></strong><br>
+             
+                <strong><a href="#"> Insurance</a></strong><br>
+               
+                <strong><a href="#"> SafePredict</a></strong>
+          </div>
+          <div class="col-3">
+            <h2 class="text-light  ">
+              <strong>Resources</strong>
+            </h2>
+            <br> 
+            <strong  ><a href="#" >SafeSwap</a></strong><br> 
+              
+            <strong><a href="#"> SafeTrade</a></strong><br>
+           
+            <strong><a href="#"> LaunchPad</a></strong><br>
+         
+            <strong><a href="#"> Insurance</a></strong><br>
+           
+           
+      
+          </div>
+          <div class="col-6">
+            <div class="row  g-0 ">
+              <div class="col-6 ">
+                <h2 class="text-light ">
+                  <strong>Community</strong>
+                </h2>
+              </div>
+              <div class="col-6 mt-1  g-0"  >
+                <div class="row  g-0">
+                  <div class="col-4 text-light">
+                   </div>  
+                  <div class="col-2 text-light">
+                    <i class="fab fa-telegram  "  ></i>
+                  </div>
+                  <div class="col-2 text-light">
+                    <i class="fab fa-facebook  "  ></i>
+                  </div>
+                  <div class="col-2 text-light">
+                    <i class="fab fa-github  "  ></i>
+                  </div>
+                  <div class="col-2 text-light">
+                    <i class="fab fa-twitter  "  ></i>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="row g-0  text-light " >
+
+              <div class="col-12 mt-1 mb-4"  >
+                 
+                <div class="form-group"> 
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                  <small id="emailHelp" class="form-text text-muted d-none">We'll never share your email with anyone else.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+    
+          <div class="row mb-5  mx-auto">
+    
+            <div class="col-6 mt-5 ">
+              <img src="../assets/svg/SVG/Brand Logo Alt.svg" alt="" width="150px"  >
+            </div>
+            <div class="col-2 mt-5 text-left  " style="text-align: left;">
+              <strong><a href="#">©2020 yfdai.finance</a></strong>
+            </div>
+            <div class="col-2 mt-5 text-center  " style="text-align: center;">
+              <strong><a href="#">About YFDAI</a></strong>
+            </div>
+            <div class="col-2 mt-5 text-right  " style="text-align: right;">
+              <strong><a href="#">Terms and Conditions</a></strong>
+            </div>
+          </div>
+        </div>
+      
+        
+
+
+      
+       
+      
+
+
+      
+      
+
+      
+      
+    </div>
+    </footer>
+
+    <footer class="container-fluid  d-block d-md-none" style="background-image: url(../assets/png/Artboard\ 1.png);background-repeat: no-repeat;background-size:cover; background-position: center;">
+      <div class=" pt-5 pb-3 px-3 container" >
+      <h2 class="text-light">
+        <strong>Services</strong>
+      </h2>
+
+      <div class="row px-3 text-light ">
+
+        <div class="col-4 my-1">
+          <strong><a href="#">SafeSwap</a></strong>
+        </div>
+
+        <div class="col-4 my-1">
+          <strong><a href="#"> SafeTrade</a></strong>
+        </div>
+
+        <div class="col-4 my-1">
+          <strong><a href="#"> LaunchPad</a></strong>
+        </div>
+      </div>
+      <div class="row px-3 text-light">
+
+        <div class="col-4 my-1">
+          <strong><a href="#"> Insurance</a></strong>
+        </div>
+
+        <div class="col-4 my-1">
+          <strong><a href="#"> SafePredict</a></strong>
+        </div>
+
+       
+      </div>
+
+
+      <h2 class="text-light mt-4">
+        <strong>Resources</strong>
+      </h2>
+
+      <div class="row px-3 text-light ">
+
+        <div class="col-4 my-1">
+          <strong><a href="#">Safeswap</a></strong>
+        </div>
+
+        <div class="col-4 my-1">
+          <strong><a href="#"> SafeTrade</a></strong>
+        </div>
+
+        
+      </div>
+      <div class="row px-3 text-light">
+
+        <div class="col-4 my-1">
+          <strong><a href="#"> Insurance</a></strong>
+        </div>
+
+        <div class="col-4 my-1">
+          <strong><a href="#"> SafePredict</a></strong>
+        </div>
+
+       
+      </div>
+
+
+      <div class="row px-3 mt-4">
+        <div class="col-6 ">
+          <h2 class="text-light ">
+            <strong>Community</strong>
+          </h2>
+        </div>
+        <div class="col-6 mt-1 "  >
+          <div class="row">
+            <div class="col-4">
+
+            </div>
+            <div class="col-2 text-light">
+              <i class="fab fa-telegram  "></i>
+            </div>
+            <div class="col-2 text-light">
+              <i class="fab fa-facebook  "></i>
+            </div>
+            <div class="col-2 text-light">
+              <i class="fab fa-github  "></i>
+            </div>
+            <div class="col-2 text-light">
+              <i class="fab fa-twitter  "></i>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+
+      <div class="row px-3 text-light " >
+
+        <div class="col-12 mt-1 mb-4"  >
+           
+          <div class="form-group"> 
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+            <small id="emailHelp" class="form-text text-muted d-none">We'll never share your email with anyone else.</small>
+          </div>
+        </div>
+      </div>
+      <div class="row mx-2 mt-2">
+
+        <div class="col-6  ">
+          <strong><a href="#" > About YFDAI</a></strong>
+        </div>
+        <div class="col-6  text-right" style="text-align: right;">
+          <strong  style="text-align: right;"><a href="#" style="text-align: right;"> Terms & Conditions</a></strong>
+        </div>
+      </div>
+
+      <div class="row mx-2">
+
+        <div class="col-6 mt-5 ">
+          <img src="../assets/svg/logo.svg" alt="" width="150px"  >
+        </div>
+        <div class="col-6 mt-5 text-right" style="text-align: right;">
+          <strong><a href="#">©2020 yfdai.finance</a></strong>
+        </div>
+      </div>
+    </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"  ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"  ></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/v4-shims.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <!-- load gsap animation library (minified version) -->
+    <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+
+    <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CIntersectionObserver"></script>
+    <script src="../scripts/products.js"  ></script>
+  </body>
+
+  
+
+</html>

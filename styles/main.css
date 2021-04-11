@@ -195,6 +195,13 @@ font-weight: bolder;
       font-weight: 700;
       text-align: center;
       } 
+
+      .banner-no-full{
+        font-size: 35px; 
+         
+        font-weight: 700;
+        text-align: center;
+        } 
     .row>* {
         padding : 0!important;
     }

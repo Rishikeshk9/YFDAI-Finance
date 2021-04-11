@@ -13,6 +13,7 @@
     
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/products.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 
@@ -39,7 +40,7 @@
     <!-- Just an image -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-md-block bg-info" style="z-index: 1000; color: black; ">
       <div class="container " style="padding-top: 40px;">
-        <a class="navbar-brand" href="#"><img src="assets/svg/SVG/Brand Logo.svg" width="150px"  ></a>
+        <a class="navbar-brand" href="index.html"><img src="assets/svg/SVG/Brand Logo.svg" width="150px"  ></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon" ></span>
         </button>
@@ -76,24 +77,25 @@
 
             <div class="dropdown-divider"></div>
 
+          
             <li class="nav-item mx-4   ">
-              <a class="nav-link home"  style="color: black; " href="index.html">HOME</a>
+              <a class="nav-link learn"  style="color: black; " href="resources/Launchpad.html">LEARN</a>
+            </li>
+
+            <li class="nav-item mx-4  d-none ">
+              <a class="nav-link home"  style="color: black; " href="index.html">LEARN</a>
             </li>
             <div class="dropdown-divider"></div>
 
             <li class="nav-item mx-4  ">
-              <a class="nav-link roadmap" href="roadmap.html" style="color: black; ">ROADMAP</a>
+              <a class="nav-link aboutus" href="about.html" style="color: black; ">ABOUT</a>
             </li>
-            <div class="dropdown-divider"></div>
 
-            <li class="nav-item mx-4  ">
-              <a class="nav-link" href="#" style="color: black; ">BUTTON</a>
+            <li class="nav-item mx-4 d-none ">
+              <a class="nav-link roadmap" href="roadmap.html" style="color: black; ">ABOUT</a>
             </li>
-            <div class="dropdown-divider"></div>
 
-            <li class="nav-item mx-4  ">
-              <a class="nav-link" href="#" style="color: black; ">BUTTON</a>
-            </li>
+            
             
           </ul>
           
@@ -103,51 +105,70 @@
 
     <nav class="navbar navbar-expand-lg  bg-info d-block d-md-none" style="z-index: 1000; ">
       <div class="container " style="padding-top:  20px;"  >
-        <a class="navbar-brand mt-3" href="#"><img src="assets/svg/SVG/Brand Logo.svg" width="150px"  ></a>
+        <a class="navbar-brand mt-3" href="index.html"><img src="assets/svg/SVG/Brand Logo.svg" width="150px"  ></a>
         <button class="navbar-toggler mt-3" style="border-color: #00000000;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon  " style='background-image: url("https://cdn1.iconfinder.com/data/icons/jumpicon-basic-ui-line-1/32/-_Hamburger-Menu-More-Navigation--128.png");'></span>
         </button>
         <div class="collapse navbar-collapse container box-shadow px-4 py-3 " style="margin-left: auto;background-color: white;border-radius: 10px;"  id="navbarTogglerDemo02">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0  "  style="margin-left: auto;">
             <div class="dropdown-divider"></div>
-            <li class="nav-item dropdown " style="color: black; ">
-              <a class="nav-link dropdown-toggle products" style="color: black; "  href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                PRODUCTS 
-              </a>
-              <ul class="dropdown-menu" style="border: none;" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item my-2 " style="border-radius: 5px;" href="#">Actions</a></li>
-                <li><a class="dropdown-item my-2" href="# " style="border-radius: 5px;" >Another action</a></li>
-                <li><a class="dropdown-item my-2" href="#" style="border-radius: 5px;" >Something else here</a></li>
-                
-              </ul>
+            <li class="nav-item dropdown" style="color: black; ">
+              
+              <ul class="navbar-nav  mb-2 mb-lg-0  "  style="margin-left: auto;">
+                 <li class="nav-item mx-2 dropdown products" style="color: black; ">
+                  <a class="nav-link dropdown-toggle products" style="color: black; "  href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    PRODUCTS
+                  </a>
+                  <ul class="dropdown-menu    mx-auto" style="border: none; padding-right:20px;background-color: #FFF;width: 100%;border-radius: 15px; " aria-labelledby="navbarDropdownMenuLink">
+                    <div class="container ">
+                      <div class="row ">
+                        <div class="col-6     " style="width: 45%;">
+                          <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Launchpad<img class="" style="margin-left: 30px;" width="36px" height="36px" src="assets/svg/launchpad.svg"></a></li>
+                          <li><a class="dropdown-item my-2  dropdown-item-full " href="# " style="border-radius: 5px;color: black; " >Safeswap&nbsp;&nbsp;<img class="" style="margin-left: 30px;" width="36px" height="36px" src="assets/svg/safeswap.svg"></a></li>
+                          <li><a class="dropdown-item my-2  dropdown-item-full " href="# " style="border-radius: 5px;color: black; " >Safeswap&nbsp;&nbsp;<img class="" style="margin-left: 30px;" width="36px" height="36px" src="assets/svg/safeswap.svg"></a></li>
+                        
+                        </div>
+                        <div class="col-6   " style="width: 45%;margin-left: 10px;">
+                          <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Safetrade<img class="" style="margin-left: 40px;" width="36px" height="36px" src="assets/svg/safetrade.svg"></a></li>
+                          <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Safetrade<img class="" style="margin-left: 40px;" width="36px" height="36px" src="assets/svg/safetrade.svg"></a></li>
+                          <li><a class="dropdown-item my-2 dropdown-item-full  " style="border-radius: 5px;color: black; " href="#">Safetrade<img class="" style="margin-left: 40px;" width="36px" height="36px" src="assets/svg/safetrade.svg"></a></li>
+                          </div>
+                      </div>
+                    </div>
+                    
+                    
+                    <a href="products.html" class="text-left text-dark mt-3  mx-2 heading-underline">ALL PRODUCTS</a>
+    
+                  </ul>
             </li> 
 
             <div class="dropdown-divider"></div>
 
-            <li class="nav-item">
-              <a class="nav-link home" style="color: black; " href="#">HOME</a>
+           
+            <li class="nav-item mx-4   ">
+              <a class="nav-link learn"  style="color: black; " href="resources/Launchpad.html">LEARN</a>
+            </li>
+
+            <li class="nav-item mx-4  d-none ">
+              <a class="nav-link home"  style="color: black; " href="index.html">LEARN</a>
             </li>
             <div class="dropdown-divider"></div>
 
-            <li class="nav-item">
-              <a class="nav-link roadmap" href="#" style="color: black; ">ROADMAP</a>
+            <li class="nav-item mx-4  ">
+              <a class="nav-link aboutus" href="about.html" style="color: black; ">ABOUT</a>
             </li>
-            <div class="dropdown-divider"></div>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#" style="color: black; ">BUTTON</a>
+            <li class="nav-item mx-4 d-none ">
+              <a class="nav-link roadmap" href="roadmap.html" style="color: black; ">ABOUT</a>
             </li>
-            <div class="dropdown-divider"></div>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#" style="color: black; ">BUTTON</a>
-            </li>
+        
             
           </ul>
           
         </div>
       </div>
     </nav>
+
 
     
     
@@ -191,7 +212,7 @@
                 <img class="card-img-top" src="assets/1x/card1_1.png" style="border-radius: 15px 15px 0px 0px;" alt="Card image cap">
                 <div class="card-body px-4 my-4">                   
                   <p class="card-text">SafeSwap is a decentralized crypto-asset exchange (DEX), enabling the listing and trading of the native ERC-20 tokens.</p>
-                  <button type="button" class="btn btn-primary btn-lg btn-block mx-auto">Block level button</button>
+                  <button type="button" class="btn btn-primary btn-lg btn-block mx-auto">Go to SafeSwap</button>
                 </div>
               </div>
           </div>
@@ -201,7 +222,7 @@
                 <img class="card-img-top" style="border-radius: 15px 15px 0px 0px;" src="assets/1x/card2_1.png" alt="Card image cap">
                 <div class="card-body px-4 my-4">                
                   <p class="card-text">YFDAI LaunchPad is an incubator service bringing first-time project token offerings to market.<br><br></p>
-                  <button type="button" class="btn btn-primary btn-lg btn-block mx-auto">Block level button</button>
+                  <button type="button" class="btn btn-primary btn-lg btn-block mx-auto">Go to Launchpad</button>
 
                 </div>
               </div>
@@ -213,7 +234,7 @@
                 <img class="card-img-top" src="assets/1x/card3_1.png" style="border-radius: 15px 15px 0px 0px;" alt="Card image cap">
                 <div class="card-body px-4 my-4">                   
                   <p class="card-text">SafeTrade is an automated low-frequency trading bot available to YFDAI holders.<br><br></p>
-                  <button type="button" class="btn btn-primary btn-lg btn-block mx-auto">Block level button</button>
+                  <button type="button" class="btn btn-primary btn-lg btn-block mx-auto">Go to SafeTrade</button>
                 </div>
               </div>
           </div>
@@ -231,20 +252,20 @@
   
             <div class="col-md-4">
               <div class="card shadow mx-auto" style="width: 90%; min-height: 100%; ">
-                  <img class="card-img-top" src="assets/1x/card1_1.png" style="border-radius: 15px 15px 0px 0px;" alt="Card image cap">
+                  <img class="card-img-top" src="assets/1x/card4.png" style="border-radius: 15px 15px 0px 0px;" alt="Card image cap">
                   <div class="card-body px-4 my-4">                   
-                    <p class="card-text">SafeSwap is a decentralized crypto-asset exchange (DEX), enabling the listing and trading of the native ERC-20 tokens.</p>
-                    <button type="button" class="btn btn-primary btn-lg btn-block mx-auto">Block level button</button>
+                    <p class="card-text">The YFDAI protocol allows users to stake YF-DAI, or actively participate in transaction validation.</p>
+                    <button type="button" class="btn btn-primary btn-lg btn-block mx-auto">Go To Staking</button>
                   </div>
                 </div>
             </div>
   
             <div class="col-md-4 ">
               <div class="card shadow mx-auto" style="width: 90%; min-height: 100%;  ">
-                  <img class="card-img-top" style="border-radius: 15px 15px 0px 0px;" src="assets/1x/card2_1.png" alt="Card image cap">
+                  <img class="card-img-top" style="border-radius: 15px 15px 0px 0px;" src="assets/1x/card5.png" alt="Card image cap">
                   <div class="card-body px-4 my-4">                
-                    <p class="card-text">YFDAI LaunchPad is an incubator service bringing first-time project token offerings to market.<br><br></p>
-                    <button type="button" class="btn btn-primary btn-lg btn-block mx-auto">Block level button</button>
+                    <p class="card-text">Farming enables YF-DAI token holders to pool liquidity in support of token trading.<br><br></p>
+                    <button type="button" class="btn btn-primary btn-lg btn-block mx-auto">Go To Farming</button>
   
                   </div>
                 </div>
@@ -253,10 +274,10 @@
   
             <div class="col-md-4">
               <div class="card shadow mx-auto " style="width: 90%; min-height: 100%; ">
-                  <img class="card-img-top" src="assets/1x/card3_1.png" style="border-radius: 15px 15px 0px 0px;" alt="Card image cap">
+                  <img class="card-img-top" src="assets/1x/card6.png" style="border-radius: 15px 15px 0px 0px;" alt="Card image cap">
                   <div class="card-body px-4 my-4">                   
-                    <p class="card-text">SafeTrade is an automated low-frequency trading bot available to YFDAI holders.<br><br></p>
-                    <button type="button" class="btn btn-primary btn-lg btn-block mx-auto">Block level button</button>
+                    <p class="card-text">Have a look at our development pipeline for more information.<br><br></p>
+                    <button type="button" class="btn btn-primary btn-lg btn-block mx-auto">Learn More</button>
                   </div>
                 </div>
             </div>
@@ -271,15 +292,31 @@
       </div>
       
      
+
+
+
+
+
  
-       
+
+      <div class="container mt-5">
+        <br>
+        <br>
+        <br>
+        <hr style="border-top: dotted 3.5px rgb(54, 54, 54);
+        background-color: transparent;" />
+  
+        <hr style="border-top: dotted 3.5px rgb(54, 54, 54);
+        background-color: transparent;" />
+      </div> 
       
+ 
       <div class="container-fluid  ">
 
         <div class="row m-auto mt-5 p-5 card-panel">
             <div class="col-xl-8 p-3">
                 <br><br>
-                <h2>SafeSwap is a decentralized crypto-asset<br> exchange (DEX), enabling  the listing and trading<br> of the native ERC-20 tokens.</h2>
+                <h2><strong>SafeSwap is a decentralized crypto-asset<br> exchange (DEX), enabling  the listing and trading<br> of the native ERC-20 tokens.</strong></h2>
                 <br>
                 <p>Unique to the DeFi industry, SafeSwap sets a new standard in strict vetting criteria for exchange listing. <br>
                     Prior to exchange listing, projects are vetted on qualitative and technical criteria that includes<br>
@@ -296,11 +333,140 @@
             </div>
         </div>
         
-      </div>
-   
+      </div> 
+
 
       
-      <div class="container-fluid mt-3 mb-5 px-5  ">
+        <div class="container bg-primary" style="border-radius: 15px;">
+          <div class="row p-5" >
+            <div class="col-md-8 text-light ">
+              <br>
+              <h3 class=" " style="line-height: 25px;"><strong class="my-auto">Learn about DeFi with our Community</strong></h3>
+            </div>
+            <div class="col-md-4">
+              <button type="button" class="btn btn-primary btn-lg btn-block mx-auto text-primary" style="background-color:white!important;  ">GO TO TELEGRAM</button>
+
+            </div>
+          </div>
+        </div>
+       
+
+
+
+      
+      <div class="container-fluid  ">
+
+        <div class="row m-auto mt-5 p-5 card-panel rounded-corners-extra"  style="background-color:#F4F6F8;">
+            <div class="col-xl-8 p-3">
+                <br><br>
+                <h2><strong>YFDAI LaunchPad is an incubator service bringing first-time project token offerings to market.</strong></h2>
+                <br>
+                <p>Unique to the DeFi industry, SafeSwap sets a new standard in strict vetting criteria for exchange listing. <br>
+                    Prior to exchange listing, projects are vetted on qualitative and technical criteria that includes<br>
+                     a smart contracts audit, liquidity pre-lock, and KYC. Project-listing on SafeSwap is compelling as a mark <br>
+                      of safety and quality while allowing exchange users a simple and easy-to-use user. </p>
+                      <br>    
+                <button type="button" class="btn btn-primary btn-lg btn-block mx-auto">GO TO LAUNCHPAD</button>
+
+            </div>
+            <div class="col-xl-4 p-3">
+              <div class="mx-auto "  >
+                <img  src="assets/png/image-placeholder.png" >
+              </div> 
+            </div>
+        </div>
+        
+      </div> 
+
+      <div class="container-fluid  ">
+
+        <div class="row m-auto mt-5 p-5 card-panel rounded-corners-extra"  style="background-color:#F4F6F8;">
+            <div class="col-xl-4 p-3">
+              <div class="mx-auto "  >
+                <img  src="assets/png/image-placeholder.png" >
+              </div> 
+            </div>
+            <div class="col-xl-8 p-3">
+                <br><br>
+                <h2><strong>SafeTrade is an automated low-frequency trading bot available to YFDAI holders as well as the general public.</strong></h2>
+                <br>
+                <p>SafeTrade is aimed at cryptocurrency traders seeking an algorithmic bot that keeps risk low and trades strategically on a decidedly lower frequency  based on market technicals.. The SafeTrade bot is currently available to trade two pairings, BTC/USD and ETH/USD.                       </p>
+                      <br>    
+                <button type="button" class="btn btn-primary btn-lg btn-block mx-auto">GO TO SAFETRADE</button>
+
+            </div>
+            
+        </div>
+        
+      </div>
+   
+      <div class="container-fluid  ">
+
+        <div class="row m-auto mt-5 p-5 card-panel rounded-corners-extra"  style="background-color:#F4F6F8;">
+            <div class="col-xl-8 p-3">
+                <br><br>
+                <h2><strong>The YFDAI protocol allows users to stake YF-DAI, or actively participate in transaction validation.</strong></h2>
+                <br>
+                <p>Staking takes place on our proof-of-stake blockchain, through a dedicated staking decentralized application. With just a 72hr initial lock period users maintain control over their tokens. Users enjoy the benefit of having a fixed interest return rate of 72% annually (0.2% per day / 6% per month). </p>
+                      <br>    
+                <button type="button" class="btn btn-primary btn-lg btn-block mx-auto">GO TO STAKING</button>
+
+            </div>
+            <div class="col-xl-4 p-3">
+              <div class="mx-auto "  >
+                <img  src="assets/png/image-placeholder.png" >
+              </div> 
+            </div>
+        </div>
+        
+      </div>
+
+      <div class="container-fluid  ">
+
+        <div class="row m-auto mt-5 p-5 card-panel rounded-corners-extra"  style="background-color:#F4F6F8;">
+            <div class="col-xl-4 p-3">
+              <div class="mx-auto "  >
+                <img  src="assets/png/image-placeholder.png" >
+              </div> 
+            </div>
+            <div class="col-xl-8 p-3">
+                <br><br>
+                <h2><strong>Farming enables YF-DAI token holders to pool liquidity in support of token trading.</strong></h2>
+                <br>
+                <p>Farming takes place on the Uniswap decentralized exchange which subsequently yields guaranteed returns in the form of Uniswap fees. The more liquidity a token holder deposits into a liquidity pool, the higher the participant's percentage of the total rewards. YFDAI offers 4 farming pools for liquidity providers, including 72 hour and 30,60, and 90 day locked liquidity pools.</p>
+                      <br>    
+                <button type="button" class="btn btn-primary btn-lg btn-block mx-auto">GO TO FARMING</button>
+
+            </div>
+            
+        </div>
+        
+      </div>
+
+      <div class="container-fluid  ">
+
+        <div class="row m-auto mt-5 p-5 card-panel rounded-corners-extra"  style="background-color:#F4F6F8;">
+            <div class="col-xl-8 p-3">
+                <br><br>
+                <h2><strong>Coming soon...</strong></h2>
+                <br>
+                <p>YFDAI are actively developing a suite of DeFi products and tools including SafePredict - an automated peer-to-peer predictions trading platform. Insurance which will offer protection against a range of issues as well as Lending and Borrowing. Follow our Medium channel or subscribe to our newsletter for more updates as they are made public. </p>
+                      <br>    
+                <button type="button" class="btn btn-primary btn-lg btn-block mx-auto">GO TO MEDIUM</button>
+
+            </div>
+            <div class="col-xl-4 p-3">
+              <div class="mx-auto "  >
+                <img  src="assets/png/image-placeholder.png" >
+              </div> 
+            </div>
+        </div>
+        
+      </div>
+
+       
+      
+      <div class="container-fluid mt-5 mb-5 px-5  ">
 
         <div class="row  m-auto   " style="margin-top: 100px; width: 80%!important"  >
           <div class="col-md-5  my-auto   ">
